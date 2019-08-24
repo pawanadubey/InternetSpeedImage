@@ -10,7 +10,6 @@
   <script>
         var imageAddr = "https://raw.githubusercontent.com/pawanadubey/InternetSpeedImage/master/InternetSpeed.jpg"; 
         var downloadSize = 3730000;
-        
         function ShowProgressMessage(msg) {
             var classNames=["spinner-border text-primary","spinner-border text-success","spinner-border text-warning","spinner-border text-secondary"];
             var nums=(classNames.length)-1;
@@ -25,7 +24,6 @@
                     }
                 }
             }
-            
             var oProgress = document.getElementById("progress");
             if (oProgress) {
                 var actualHTML = (typeof msg == "string") ? msg : msg.join("<br />");
