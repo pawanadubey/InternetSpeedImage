@@ -1,2 +1,2 @@
 # InternetSpeedImage
-This image is used to check the internet download speed.
+The code to check internet download speed.
